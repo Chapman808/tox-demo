@@ -1,0 +1,7 @@
+action: py38asdf, msg: getenv
+cwd: /home/chappy/workspace/tox-demo/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python3 py38asdf
+created virtual environment CPython3.8.10.final.0-64 in 168ms
+  creator CPython3Posix(dest=/home/chappy/workspace/tox-demo/.tox/py38asdf, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, pkg_resources=latest, via=copy, app_data_dir=/home/chappy/.local/share/virtualenv/seed-app-data/v1.0.1.debian.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator

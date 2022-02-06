@@ -1,0 +1,21 @@
+action: my_env, msg: getenv
+cwd: /home/chappy/workspace/tox-demo
+cmd: /home/chappy/workspace/tox-demo/.tox/my_env/bin/python -m pip install pytest
+Collecting pytest
+  Downloading pytest-6.2.5-py3-none-any.whl (280 kB)
+Collecting attrs>=19.2.0
+  Downloading attrs-21.4.0-py2.py3-none-any.whl (60 kB)
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting pluggy<2.0,>=0.12
+  Downloading pluggy-1.0.0-py2.py3-none-any.whl (13 kB)
+Collecting py>=1.8.2
+  Downloading py-1.11.0-py2.py3-none-any.whl (98 kB)
+Collecting iniconfig
+  Downloading iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Collecting packaging
+  Downloading packaging-21.3-py3-none-any.whl (40 kB)
+Collecting pyparsing!=3.0.5,>=2.0.2
+  Downloading pyparsing-3.0.6-py3-none-any.whl (97 kB)
+Installing collected packages: attrs, toml, pluggy, py, iniconfig, pyparsing, packaging, pytest
+Successfully installed attrs-21.4.0 iniconfig-1.1.1 packaging-21.3 pluggy-1.0.0 py-1.11.0 pyparsing-3.0.6 pytest-6.2.5 toml-0.10.2
